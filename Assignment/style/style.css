@@ -1,0 +1,138 @@
+/* style for body */
+body {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* style for container class */
+.container {
+    text-align: center;
+}
+
+/* style for navigation bar */
+.navbar {
+    text-align: center;
+    background-color: #333;
+}
+
+.navbar ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 18px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    padding: 20px 16px 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: slategrey;
+}
+
+/* style for buttons */
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: slategrey;
+    cursor: pointer;
+}
+
+/* style for intakeSVG */
+.intakeSVG{
+    float: left;
+}
+
+/* style for deathSVG */
+.deathSVG{
+    float: right;
+}
+
+/* style for footer */
+footer {
+    clear: both;
+}
+
+/* styling for drug consumption line graph */
+.line1820 {
+    fill: none;
+    stroke: red;
+    stroke-width: 1.5;
+}
+
+.line2125 {
+    fill: none;
+    stroke: green;
+    stroke-width: 1.5;
+}
+
+.line2630 {
+    fill: none;
+    stroke: purple;
+    stroke-width: 1.5;
+}
+
+.line3135 {
+    fill: none;
+    stroke: blue;
+    stroke-width: 1.5;
+}
+
+.line36 {
+    fill: none;
+    stroke: orange;
+    stroke-width: 1.5;
+}
+
+/* styling for drug death line graph */
+.lineDeathAll{
+    fill: none;
+    stroke: slategrey;
+    stroke-width: 1.5;
+}
+
+.lineDeath1524 {
+    fill: none;
+    stroke: red;
+    stroke-width: 1.5;
+}
+
+.lineDeath2534 {
+    fill: none;
+    stroke: green;
+    stroke-width: 1.5;
+}
+
+.lineDeath3544 {
+    fill: none;
+    stroke: purple;
+    stroke-width: 1.5;
+}
+
+.lineDeath4554 {
+    fill: none;
+    stroke: blue;
+    stroke-width: 1.5;
+}
+
+.lineDeath55 {
+    fill: none;
+    stroke: orange;
+    stroke-width: 1.5;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="utf-8" />
+        <meta name="description" content="Data Visualisation Assignment" />
+        <meta name="keywords" content="HTML, CSS, D3, SVG, CSV" />
+        <meta name="author" content="Sinclair Chat Shen Chin" />
+
+        <!-- title of webpage -->
+        <title>Drug Consumption by Gender and Years</title>
+
+        <!-- referencing to CSS -->
+        <link href="style/style.css" type="text/css" rel="stylesheet" />
+        <!-- referencing to v5 of D3 library -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- referencing to d3 javascript -->
+        <script src="javascript/genderBar.js"></script>
+    </head>
+
+    <body>
+        <!-- header 1  -->
+        <div class="container">
+            <div class="navbar">
+                <!-- Items for navigation bar -->
+                <ul>
+                    <li><a href="index.html">Drug Consumption and Death by Age Groups and Years</a></li>
+                    <li><a href="drug_gender.html">Drug Consumption by Gender and Years</a></li>
+                </ul>
+            </div>
+
+            <h1>Drug Consumption by Gender and Years</h1>
+
+            <!-- buttons for different types of drugs -->
+            <div class="button">
+                <button id="cann">Cannabis</button>
+                <button id="amp">Amphetamine</button>
+                <button id="hero">Heroin</button>
+                <button id="coc">Cocaine</button>
+                <button id="ben">Benzodiazepines</button>
+            </div>
+
+            <br />
+
+            <!-- SVGs for SVG and Legend -->
+            <p id="genderBar"></p>
+            <p id="genderBarLegend"></p>
+
+            <hr />
+
+            <!-- footer -->
+            <footer>
+                COS30045 Data Visualisation <br />
+                Sinclair Chat Shen Chin
+            </footer>
+        </div>
+    </body>
+</html>

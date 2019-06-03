@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="utf-8" />
+        <meta name="description" content="Data Visualisation Assignment" />
+        <meta name="keywords" content="HTML, CSS, D3, SVG, CSV" />
+        <meta name="author" content="Sinclair Chat Shen Chin" />
+
+        <!-- title of webpage -->
+        <title>Drug Consumption and Death by Age Groups and Years</title>
+
+        <!-- referencing to CSS -->
+        <link href="style/style.css" type="text/css" rel="stylesheet" />
+        <!-- referencing to v5 of D3 library -->
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- referencing to d3 javascript -->
+        <script src="javascript/ageGroup.js"></script>
+    </head>
+
+    <body>
+        <!-- header 1  -->
+        <div class="container">
+            <div class="navbar">
+                <!-- Items for navigation bar -->
+                <ul>
+                    <li><a href="index.html">Drug Consumption and Death by Age Groups and Years</a></li>
+                    <li><a href="drug_gender.html">Drug Consumption by Gender and Years</a></li>
+                </ul>
+            </div>
+
+            <h1>Drug Consumption and Death by Age Groups and Years</h1>
+
+            <!-- buttons for different types of drugs -->
+            <div class="button">
+                <button id="cann">Cannabis</button>
+                <button id="amp">Amphetamine</button>
+                <button id="hero">Heroin</button>
+                <button id="coc">Cocaine</button>
+                <button id="ben">Benzodiazepines</button>
+            </div>
+
+            <br />
+
+            <!-- SVGs for intake title, SVG and Legend -->
+            <div><p id="svgTitle"></p></div>
+            <div class="intakeSVG">
+                <h2>Drug Consumption by Age Groups and Years</h2>
+                <p id="intakeLine"></p>
+                <p id="intakeLegend"></p>
+            </div>
+
+            <!-- SVGs for death title, SVG and Legend -->
+            <div class="deathSVG">
+                <h2>Drug Death by Age Groups and Years</h2>
+                <p id="deathLine"></p>
+                <p id="deathLineLegend"></p>
+            </div>
+
+            <!-- footer -->
+            <footer>
+                <hr />
+                COS30045 Data Visualisation <br />
+                Sinclair Chat Shen Chin
+            </footer>
+        </div>
+    </body>
+</html>
