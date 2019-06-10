@@ -121,7 +121,7 @@ function init() {
             .text("Cannabis");
 
         // year label
-        var yearName = ["2008","2009-10","2011-12","2013-14","2015-16"];\
+        var yearName = ["2008","2009-10","2011-12","2013-14","2015-16"];
 
         // scalePoint to have custom labels on x-axis
         var xYearScale = d3.scalePoint()
